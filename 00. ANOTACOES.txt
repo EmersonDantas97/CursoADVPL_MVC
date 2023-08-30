@@ -1,0 +1,66 @@
+
+>> Seção 02 >> Aula 01
+
+PADRÃO EM MVC
+
+Padrão de arquitetura de Software.
+
+M   Model
+V   View   
+C   Controller
+
+É no model que eu insiro minhas régras de negócio. 
+View é a interface que é responsável por exibir.
+É o que transaciona as informações entre as duas camadas.
+
+Quando tratamos do modelo MVC em AdvPL, a camada controller é suprimida, como se não houvesse.
+
+**********************
+
+>> Seção 02 >> Aula 01
+
+Funções espeficificas do AdvPL utilizando MVC
+
+São elas: ModelDel, ViewDef, MenuDef.
+
+MODELDEF
+Função que contém a construção e a definição do modelo de dados. Contem a regra de negócio.
+
+VIEWDEF
+Função responsável pela contrução da interface da aplicação.
+ Q
+MENUDEF
+Função que contém a definição das operações disponíveis para o modelo de dados (Model).
+
+* Cada arquivo ".prw", só pode conter uma destas funções.
+
+Todas elas são Static Function.
+
+Exemplo de código MVC:
+
+    User Function PrimMvc()
+
+    Return
+
+    Static Function MenuDef()
+
+    Return
+
+    Static Function ModelDef()
+
+    Return
+
+    Static Function ViewDef()
+
+    Return
+
+**********************
+
+>> Seção 04 >> Aula 01
+
+
+
+
+
+
+
